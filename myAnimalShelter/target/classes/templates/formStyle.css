@@ -1,0 +1,29 @@
+
+body {
+    background-color: #f5eec2;
+    color: #416859;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    text-align: center;
+    
+}
+input{
+    margin-top: 30px;
+    border-radius: 10%;
+    background-color: #98FB98;
+    font-style: italic;
+    height:30px;
+    color:#39395f;
+    width: 30%;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #39395f;
+  border: none;
+  color: #f5eec2;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 100px 100px;
+  cursor: pointer;
+  width: 7%;
+  height:50px;
+}

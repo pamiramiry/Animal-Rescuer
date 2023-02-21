@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+<title>Animal Rescuer</title>
+<link rel="stylesheet" th:href="@{/css/shelterStyle.css}">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="http://localhost:8080/auth/login/user">Shelter Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/auth/login/user/addanimal">Add Animal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/auth/login/user/deleteanimal">Delete Animal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/logout">Logout</a>
+        </li>
+    </ul>
+<h1 th:text="${name}"></h1>
+
+<div th:if=" ${created}">
+  <div class="alert alert-success center-block alert-dismissible fade show w-50" role="alert"  data-mdb-position="top-right">
+    <div>Animal has been created</div>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+</div>
+<div th:if=" ${deleted}">
+  <div class="alert alert-success center-block alert-dismissible fade show w-50" role="alert"  data-mdb-position="top-right">
+    <div>Animal Has been Deleted</div>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Age</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Species</th>
+      <th scope="col">Shelter</th>
+      <th scope="col">Type</th>
+      <th scope="col">City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr th:each="animal: ${list}">
+      <th scope="row" th:text="${animal.id}"></th>
+      <td th:text="${animal.age}"></td>
+      <td th:text="${animal.gender}"></td>
+      <td th:text="${animal.species}"></td>
+      <td th:text="${animal.shelter}"></td>
+      <td th:text="${animal.type}"></td>
+      <td th:text="${animal.city}"></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

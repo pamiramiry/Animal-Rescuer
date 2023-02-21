@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org"> <head> <h1> Animal Shelter Registration!!</h1>
+    <link rel="stylesheet" th:href="@{/css/formStyle.css}"> 
+</head> 
+<body> 
+    <!--action="/test/reg" method="POST" -->
+<form role="form" method="post" th:action="@{/test/reg}" th:object="${shelter}" > 
+    <input type=”password” name="password" placeholder="password" th:field="*{password}">
+    <input type=text name=”address” placeholder=" Address" th:field="*{address}">
+    <input type=text name=”username” placeholder="Username" th:field="*{username}"> 
+    <input type=text name=”name” placeholder="Name" th:field="*{name}">
+    <input type=text name=”city” placeholder="City" th:field="*{city}"> 
+    <input type=text name=”country” placeholder="Country" th:field="*{country}">
+    <input type=text name=”hours” placeholder="Hour" th:field="*{hours}">
+    <input type="submit" id="btn"></input>
+
+</form>
+
+</body> 
+</html>

@@ -1,0 +1,9 @@
+/* Add a black background color to the top navigation */
+body {
+    background-image: url("catWallPaper.jpg");
+    background-size:1200px 800px;
+}
+div {
+    display: flex;
+    justify-content:center;
+}
