@@ -11,7 +11,7 @@ To run the project, follow these simple steps:
 4. Run the main method in that class.
 5. Open your browser and search for "localhost:8080" to view the wireframe.
 
-
+This is the home Page, Users can decide to Login into there account, search for available animals and create there account
 ![image](https://user-images.githubusercontent.com/48389891/232002933-2917089c-7cd3-4dd9-8438-e272968fd483.png)
 
 
