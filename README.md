@@ -11,15 +11,19 @@ To run the project, follow these simple steps:
 4. Run the main method in that class.
 5. Open your browser and search for "localhost:8080" to view the wireframe.
 
+
 This is the home Page, Users can decide to Login into there account, search for available animals and create there account
 ![image](https://user-images.githubusercontent.com/48389891/232002933-2917089c-7cd3-4dd9-8438-e272968fd483.png)
 
-
+This is the Shelter Registration Page. Users who want to create an account with the app have to fill in the following form
 ![image](https://user-images.githubusercontent.com/48389891/232003032-666d17b0-0513-4651-b4d8-bdfbbdd561e1.png)
 
+
+This is the login page. Users have to login with the correct credentials
 ![image](https://user-images.githubusercontent.com/48389891/232003120-678be218-15df-4dc2-a709-eb6bad486b1e.png)
 
 
+This is the animals shelter home page. It shows the current Animals the shelters has and gives you options to Delete or add more animals
 ![image](https://user-images.githubusercontent.com/48389891/232003333-a7ced4d9-4564-4be6-9cc6-73bba355f957.png)
 
 ![image](https://user-images.githubusercontent.com/48389891/232003398-40c5122c-7b9b-4000-83fe-3979c2c412c0.png)
