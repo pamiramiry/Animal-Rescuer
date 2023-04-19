@@ -1,8 +1,16 @@
 # Animal-Rescuer
 An App where animal Shelters can create an account and can post what type of animals they have for adoption and potential clients can search all the available animals by city
 
+This project was created using Java SDK 17 and Spring Boot, along with additional technologies such as HTML, CSS, Bootstrap, ThymeLeaf, and Intellij as the code editor. The H2 database, which is an in-memory database, was used too. To fill the database manually, you will need to uncomment the code in the first method.
 
-The app uses Java, Springboot, Spring Security, and Thyme Leaf for the backend and Html, Css and Bootstrap for the front end and a H2 data base to store the users.
+To run the project, follow these simple steps:
+
+1. Open the project in your preferred Java IDE, preferably Intellij.
+2. Ensure that all necessary libraries and dependencies are imported.
+3. Navigate to the Main file, "AnimalShelterApplication.java".
+4. Run the main method in that class.
+5. Open your browser and search for "localhost:8080" to view the wireframe.
+
 
 ![image](https://user-images.githubusercontent.com/48389891/232002933-2917089c-7cd3-4dd9-8438-e272968fd483.png)
 
