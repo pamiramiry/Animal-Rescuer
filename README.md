@@ -1,5 +1,6 @@
 # Animal-Rescuer
-An App where animal Shelters can create an account and can post what type of animals they have for adoption and potential clients can search all the available animals by city
+
+An App which helps connects animal shelters to potential adopters.
 
 This project was created using Java SDK 17 and Spring Boot, along with additional technologies such as HTML, CSS, Bootstrap, ThymeLeaf, and Intellij as the code editor. The H2 database, which is an in-memory database, was used too. To fill the database manually, you will need to uncomment the code in the first method.
 
